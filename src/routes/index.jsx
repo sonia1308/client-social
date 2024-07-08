@@ -13,6 +13,7 @@ import Courses from "../page/Coures";
 import Challenges from "../page/Challenges";
 import Login from "../auth/Login";
 import Register from "../auth/Register";
+import Forget from "../auth/Forget";
 
 
 
@@ -28,6 +29,10 @@ const routes =createBrowserRouter([
     {
         path:'/register',
         element:<Register />,
+    },
+    {
+        path:'/forget',
+        element:<Forget />,
     },
     {
         path:'/group',
