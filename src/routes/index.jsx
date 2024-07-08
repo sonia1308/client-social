@@ -14,13 +14,60 @@ import Challenges from "../page/Challenges";
 import Login from "../auth/Login";
 import Register from "../auth/Register";
 import Forget from "../auth/Forget";
+import MainLaoyut from "../layout";
 
 
 
 const routes =createBrowserRouter([
     {
         path:'/',
-        element:<Timeline />,
+        element:<MainLaoyut />,
+        children:[
+            {
+                index:true,
+                element:<Timeline />,
+            },
+            {
+                path:'/group',
+                element:<Group />,
+            },
+            {
+                path:'/event',
+                element:<Events />,
+            },
+            {
+                path:'/forums',
+                element:<Forums />,
+            },
+            {
+                path:'/profile',
+                element:<Profile />,
+            },
+            {
+                path:'/trends',
+                element:<Trends />,
+            },
+            {
+                path:'/friends',
+                element:<Friends />,
+            },
+            {
+                path:'/courses',
+                element:<Courses />,
+            },
+            {
+                path:'/challenges',
+                element:<Challenges />,
+            },
+            {
+                path:'/blog',
+                element:<Articles />,
+            },
+            {
+                path:'/blog/:id/:slug',
+                element:<Details />,
+            },
+        ]
     },
     {
         path:'/login',
@@ -33,46 +80,6 @@ const routes =createBrowserRouter([
     {
         path:'/forget',
         element:<Forget />,
-    },
-    {
-        path:'/group',
-        element:<Group />,
-    },
-    {
-        path:'/event',
-        element:<Events />,
-    },
-    {
-        path:'/forums',
-        element:<Forums />,
-    },
-    {
-        path:'/profile',
-        element:<Profile />,
-    },
-    {
-        path:'/trends',
-        element:<Trends />,
-    },
-    {
-        path:'/friends',
-        element:<Friends />,
-    },
-    {
-        path:'/courses',
-        element:<Courses />,
-    },
-    {
-        path:'/challenges',
-        element:<Challenges />,
-    },
-    {
-        path:'/blog',
-        element:<Articles />,
-    },
-    {
-        path:'/blog/:id/:slug',
-        element:<Details />,
     },
     {
         path:'*',
