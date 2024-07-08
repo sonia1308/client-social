@@ -5,7 +5,7 @@ import SuggestedUI from "./components/SuggestedUI";
 
 export default function RightSidebar() {
   return (
-    <div className="pt-4">
+    <div className="pt-4 lg:block md:block hidden">
         <SuggestedProfile />
         <SuggestedUI />
         <SuggestedEvents />
