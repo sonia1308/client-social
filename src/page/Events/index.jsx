@@ -2,6 +2,6 @@
 
 export default function Events() {
   return (
-    <div>Events</div>
+    <div className="flex-1">Events</div>
   )
 }

@@ -2,6 +2,6 @@
 
 export default function Timeline() {
   return (
-    <div>timeline</div>
+    <div className="flex-1">timeline</div>
   )
 }

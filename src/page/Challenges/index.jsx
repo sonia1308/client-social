@@ -2,6 +2,6 @@
 
 export default function Challenges() {
   return (
-    <div>challenges</div>
+    <div className="flex-1">challenges</div>
   )
 }

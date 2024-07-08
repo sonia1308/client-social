@@ -2,6 +2,6 @@
 
 export default function Forums() {
   return (
-    <div>Forums</div>
+    <div className="flex-1">Forums</div>
   )
 }

@@ -2,6 +2,6 @@
 
 export default function Articles() {
   return (
-    <div>Articles</div>
+    <div className="flex-1">Articles</div>
   )
 }
