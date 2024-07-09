@@ -2,6 +2,6 @@
 
 export default function Trends() {
   return (
-    <div>Trends</div>
+    <div className="flex-1">Trends</div>
   )
 }

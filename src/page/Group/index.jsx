@@ -2,6 +2,6 @@
 
 export default function Group() {
   return (
-    <div>Group</div>
+    <div className="flex-1">Group</div>
   )
 }
