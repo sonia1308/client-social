@@ -6,7 +6,7 @@ import { MdEventAvailable,MdForum,MdOutlineDesignServices,MdOutlineFeed } from "
 import { Link } from "react-router-dom";
 export default function Sidebar() {
   return (
-    <aside className="h-screen w-[calc(10vw+90px)] flex-col lg:flex hidden py-3 pl-3 bg-[#FFF]">
+    <aside className="h-[calc(100vh-82px)] w-[calc(10vw+90px)] flex-col lg:flex hidden py-3 pl-3 bg-[#FFF]">
       <Link to={'/profile'} className="py-5">
       <div className="flex flex-col">
         <span className="text-[#171725] text-sm font-semibold">Eltaj Mammadzada</span>

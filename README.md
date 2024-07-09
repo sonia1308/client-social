@@ -1,3 +1,5 @@
-# login 
-# Register
-# TimeLine
+# login +
+# Register+
+# TimeLine+
+
+# mueyyen sorgu sonrasinda user bloklansin
